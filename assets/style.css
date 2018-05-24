@@ -1,0 +1,46 @@
+/* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+
+#map {
+    height: 50%;
+    width: 90%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #c0c5ce;
+}
+#stupidcol {
+    margin: 0px;
+    padding: 0px;
+}
+#stupidrow {
+    margin: 0px;
+    padding: 0px;
+}
+footer {
+    text-align: center;
+}
+a {
+    color: black;
+}
+@font-face {
+font-family: 'Earthquake';
+src: url('EarthquakeMF.ttf') /*format('truetype');*/
+}
+h1 {
+font-family: 'Earthquake';
+font-size: 700%;
+text-align: center;
+background: -webkit-linear-gradient(rgb(0, 0, 0), steelblue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
