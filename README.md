@@ -12,10 +12,9 @@ When the user types in an address and clicks "submit"...
 
 ![Screenshot](assets/screenshotSeismicStats2.png)
 
-...the site moves the address to the "Address Information" field (which will hold a few of the most recent searches) and will display the most recent earthquake locations, dates, and magnitutes in a table.
+...the site moves the address to the "Address Information" field (which will hold a few of the most recent searches) and displays the most recent earthquake locations, dates, and magnitutes in a table.
 
 ![Screenshot](assets/screenshotSeismicStats3.png)
 
-The site will also plot those earthquake locations on the site's map.
-
+The site also uses red dots to plot those earthquake locations on the site's map. Smaller dots indicate earthquakes of smaller magnitude and larger dots indicate greater magnitude.
 ![Screenshot](assets/screenshotSeismicStats4.png)
